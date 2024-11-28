@@ -6,50 +6,50 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", "22505271"))
-API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7305874977:AAGTBRowGUlCkk39Db6Faico8Wgufp0E5Rk")
+APP_ID = int(os.environ.get("APP_ID", "9218751"))
+API_HASH = os.environ.get("API_HASH", "82f5398437eb5474b676e83ed67e69cc")
  
 BAN = int(os.environ.get("BAN", "1198543450")) #Owner user id
-OWNER = os.environ.get("OWNER", "PhDLust") #Owner username
-OWNER_ID = int(os.environ.get("OWNER_ID", "7131513396")) #Owner user id
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "ULTROIDOFFICIAL_CHAT") # WITHOUR @
-CHANNEL = os.environ.get("CHANNEL", "ULTROID_OFFICIAL") # WITHOUR @
+OWNER = os.environ.get("OWNER", "XSUPPRTBOT") #Owner username
+OWNER_ID = int(os.environ.get("OWNER_ID", "7125905015")) #Owner user id
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Xsupportchats") # WITHOUR @
+CHANNEL = os.environ.get("CHANNEL", "XMAINOFFICIAL") # WITHOUR @
 
 # Auto delete time in seconds.
-DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 60)) #seconds
+DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 86400)) #seconds
 #NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 60)) #seconds nofirication delete time
 AUTO_DELETE = os.environ.get("AUTO_DELETE", True) #ON/OFF
-GET_AGAIN = os.environ.get("GET_AGAIN", True) #ON/OFF
+GET_AGAIN = os.environ.get("GET_AGAIN", False) #ON/OFF
 #DELETE_INFORM = os.environ.get("INFORM" , "Successfully DELETED !!")
 #NOTIFICATION = os.environ.get("NOTIFICATION" ,"File will delete after 60 seconds.")
 GET_INFORM = os.environ.get("GET_INFORM" ,"File was deleted after 60 seconds. \nUse the button below to GET FILE AGAIN.")
 
 
 
-PAYMENT_QR = os.getenv('PAYMENT_QR', 'https://graph.org/file/c54fdc8a5580bb801abc2.jpg')
+PAYMENT_QR = os.getenv('PAYMENT_QR', 'https://envs.sh/LRT.jpg')
 
 PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - \n\n'
-                                      '- 20ʀs - 1 ᴡᴇᴇᴋ\n- 50ʀs - 1 ᴍᴏɴᴛʜ\n'
-                                      '- 100ʀs - 3 ᴍᴏɴᴛʜs\n- 300ʀs - 6 ᴍᴏɴᴛʜs\n\n'
+                                      '- 40ʀs - 1 ᴡᴇᴇᴋ\n- 100ʀs - 1 ᴍᴏɴᴛʜ\n'
+                                      '- 195ʀs - 2 ᴍᴏɴᴛʜs\n- 290ʀs - 3 ᴍᴏɴᴛʜs\n\n'
                                       '🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎁\n\n'
                                       '○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n'
                                       '○ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n'
-                                      '○ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs & sᴇʀɪᴇs\n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n'
-                                      '✨ ᴜᴘɪ ɪᴅ - <code>dm : @jatin_24x for upi</code>\n\n'
+                                      '○ ᴡᴀᴛᴄʜ ᴜɴʟɪᴍɪᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ\n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n'
+                                      '✨ ᴜᴘɪ ɪᴅ - <code>dm : @XSUPPRT2BOT for upi</code>\n\n'
                                       'ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan\n\n'
                                       '💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ\n\n'
-                                      '‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ</b>')
-OWNER_USERNAME = os.getenv('OWNER_USERNAME', 'jatin_24x')
+                                      '‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ.\n𝕐𝕠𝕦 𝕔𝕒𝕟 𝕒𝕝𝕤𝕠 𝕓𝕦𝕪 𝕔𝕦𝕤𝕥𝕠𝕞 𝕕𝕒𝕪𝕤 𝕡𝕝𝕒𝕟</b>')
+OWNER_USERNAME = os.getenv('OWNER_USERNAME', 'XSUPPRT2BOT')
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://ultroidxTeam:ultroidxTeam@cluster0.gabxs6m.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluser10")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aarshhub:6L1PAPikOnAIHIRA@cluster0.6shiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Database")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565")) #database save channel id 
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002182435006"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002182435006"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002182435006"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002182435006"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002350799072")) #database save channel id 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002156988482"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002192786368"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 
 #Shortner (token system) 
 
@@ -63,10 +63,10 @@ TUT_VID = os.environ.get("TUT_VID", "https://t.me/Ultroid_Official/18")
 SECONDS = int(os.getenv("SECONDS", "200")) # auto delete in seconds
 PORT = os.environ.get("PORT", "8080")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI am a content provider bot ✨️.")
 
 try:
-    ADMINS=[6020516635]
+    ADMINS=[7125905015]
     for x in (os.environ.get("ADMINS", "1198543451 6020516635 1837294444 6695586027").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -77,15 +77,15 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to
 
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None) # remove None and fo this ->: "here come your txt" also with this " " 
 
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False
 
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot !"
+USER_REPLY_TEXT = "❌Don't send me messages directly 🫠!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(7125905015)
 
 LOG_FILE_NAME = "uxblogs.txt"
 
