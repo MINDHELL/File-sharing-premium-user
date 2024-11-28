@@ -106,13 +106,13 @@ async def start_command(client: Client, message):
         if "vip-" in decoded_string:
             if not premium_status:
                 sent_message = await message.reply_text(
-                    "This VIP content is only accessible to premium (VIP) users! \n\nUpgrade to VIP to access. \nClick here /myplan"
+                    "This VIP content is only accessible to premium (VIP) users! \n\nUpgrade to VIP to access✨️. \nClick here /myplan"
                 )
                 #asyncio.create_task(schedule_auto_delete(client, sent_message.chat.id, sent_message.id, delay=600))
                 return 
 
         if is_premium_link and not premium_status:
-            sent_message = await message.reply_text("This link is for premium users only! \n\nUpgrade to access. \nClick here /myplan")
+            sent_message = await message.reply_text("This link is for premium users only! \n\nUpgrade to access✨️. \nClick here /myplan")
             #asyncio.create_task(schedule_auto_delete(client, sent_message.chat.id, sent_message.id, delay=600))
             return
 
