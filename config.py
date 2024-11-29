@@ -17,7 +17,7 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Xsupportchats") # WITHOUR @
 CHANNEL = os.environ.get("CHANNEL", "XMAINOFFICIAL") # WITHOUR @
 
 # Auto delete time in seconds.
-DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 43200)) #seconds
+DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 10)) #seconds
 #NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 60)) #seconds nofirication delete time
 AUTO_DELETE = os.environ.get("AUTO_DELETE", True) #ON/OFF
 GET_AGAIN = os.environ.get("GET_AGAIN", False) #ON/OFF
