@@ -17,7 +17,7 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "Xsupportchats") # WITHOUR @
 CHANNEL = os.environ.get("CHANNEL", "XMAINOFFICIAL") # WITHOUR @
 
 # Auto delete time in seconds.
-DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 86400)) #seconds
+DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 43200)) #seconds
 #NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 60)) #seconds nofirication delete time
 AUTO_DELETE = os.environ.get("AUTO_DELETE", True) #ON/OFF
 GET_AGAIN = os.environ.get("GET_AGAIN", False) #ON/OFF
@@ -43,9 +43,9 @@ PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀ�
 OWNER_USERNAME = os.getenv('OWNER_USERNAME', 'XSUPPRT2BOT')
 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aarshhub:6L1PAPikOnAIHIRA@cluster0.6shiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Database")
+DB_NAME = os.environ.get("DATABASE_NAME", "DARKDATA")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002350799072")) #database save channel id 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002278687279")) #database save channel id 
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002156988482"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002192786368"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
