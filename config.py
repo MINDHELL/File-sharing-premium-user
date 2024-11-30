@@ -48,8 +48,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "DARKDATA")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002278687279")) #database save channel id 
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002156988482"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002192786368"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
+#FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
+#FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "0"))
 
 #Shortner (token system) 
 
