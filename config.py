@@ -45,7 +45,7 @@ OWNER_USERNAME = os.getenv('OWNER_USERNAME', 'XSUPPRT2BOT')
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aarshhub:6L1PAPikOnAIHIRA@cluster0.6shiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "DARKDATA")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002323865573) #database save channel id 
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002323865573") #database save channel id 
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002156988482"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002192786368"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002192786368"))
