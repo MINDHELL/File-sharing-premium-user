@@ -135,7 +135,7 @@ async def start_command(client: Client, message):
             for msg in messages:
                 caption = CUSTOM_CAPTION.format(previouscaption=msg.caption.html if msg.caption else "", filename=msg.document.file_name) if CUSTOM_CAPTION and msg.document else (msg.caption.html if msg.caption else "")
                 reply_markup = None if DISABLE_CHANNEL_BUTTON else msg.reply_markup
-                sent_message = await msg.copy(chat_id=message.from_user.id, protect_content=True, caption=caption, reply_markup=reply_markup)
+                sent_message = await msg.copy(chat_id=message.from_user.id, protect_content=False, caption=caption, reply_markup=reply_markup)
                 if AUTO_DELETE == True:
                     asyncio.create_task(schedule_auto_delete(client, sent_message.chat.id, sent_message.id, delay=DELETE_AFTER))
                 await sleep(0.5)
