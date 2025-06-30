@@ -18,11 +18,11 @@ CHANNEL = os.environ.get("CHANNEL", "Allvidsbackup3") # WITHOUR @
 
 # Auto delete time in seconds.
 DELETE_AFTER = int(os.environ.get("DELETE_AFTER", 60)) #seconds
-#NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 60)) #seconds nofirication delete time
+NOTIFICATION_TIME = int(os.environ.get('NOTIFICATION_TIME', 60)) #seconds nofirication delete time
 AUTO_DELETE = os.environ.get("AUTO_DELETE", True) #ON/OFF
 GET_AGAIN = os.environ.get("GET_AGAIN", False) #ON/OFF
 #DELETE_INFORM = os.environ.get("INFORM" , "Successfully DELETED !!")
-#NOTIFICATION = os.environ.get("NOTIFICATION" ,"File will delete after 60 seconds.")
+NOTIFICATION = os.environ.get("NOTIFICATION" ,"File will delete after 60 seconds.")
 GET_INFORM = os.environ.get("GET_INFORM" ,"File was deleted after 60 seconds. \nUse the button below to GET FILE AGAIN.")
 
 
