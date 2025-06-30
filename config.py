@@ -6,9 +6,9 @@ import os
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7603445206:AAH2MkaF8Ds_C6YHIkIDdkK4OUIV5odMO9U")
-APP_ID = int(os.environ.get("APP_ID", "9218751"))
-API_HASH = os.environ.get("API_HASH", "82f5398437eb5474b676e83ed67e69cc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7755212159:AAE909pSelFLdi_-ckxNTItfAKXTcuZYLAw")
+APP_ID = int(os.environ.get("APP_ID", "27083483"))
+API_HASH = os.environ.get("API_HASH", "1ba790464745c13ce149649d73137e52")
  
 BAN = int(os.environ.get("BAN", "1198543450")) #Owner user id
 OWNER = os.environ.get("OWNER", "XSUPPRT4BOT") #Owner username
