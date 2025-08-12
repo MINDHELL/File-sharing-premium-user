@@ -42,7 +42,7 @@ PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀ�
                                       '‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ.\n𝕐𝕠𝕦 𝕔𝕒𝕟 𝕒𝕝𝕤𝕠 𝕓𝕦𝕪 𝕔𝕦𝕤𝕥𝕠𝕞 𝕕𝕒𝕪𝕤 𝕡𝕝𝕒𝕟</b>')
 OWNER_USERNAME = os.getenv('OWNER_USERNAME', 'SKYLER004')
 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aarshhub:6L1PAPikOnAIHIRA@cluster0.6shiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aarshhub:wcCgmKoCu2sTsEtv@cluster0.6shiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Database")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002350799072")) #database save channel id 
