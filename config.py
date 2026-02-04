@@ -43,7 +43,7 @@ PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀ�
 OWNER_USERNAME = os.getenv('OWNER_USERNAME', 'XSUPPRT4BOT')
 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://aarshhub:wcCgmKoCu2sTsEtv@cluster0.6shiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Dbshark")
+DB_NAME = os.environ.get("DATABASE_NAME", "Dark")
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003888552835) #database save channel id 
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002546714412"))
