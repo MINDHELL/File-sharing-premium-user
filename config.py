@@ -30,13 +30,13 @@ GET_INFORM = os.environ.get("GET_INFORM" ,"File was deleted after 60 seconds. \n
 PAYMENT_QR = os.getenv('PAYMENT_QR', 'https://envs.sh/LRT.jpg')
 
 PAYMENT_TEXT = os.getenv('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs - \n\n'
-                                      '- 40ʀs - 1 ᴡᴇᴇᴋ\n- 100ʀs - 1 ᴍᴏɴᴛʜ\n'
-                                      '- 195ʀs - 2 ᴍᴏɴᴛʜs\n- 290ʀs - 3 ᴍᴏɴᴛʜs\n\n'
+                                      '- 60ʀs - 1 ᴡᴇᴇᴋ\n- 149ʀs - 1 ᴍᴏɴᴛʜ\n'
+                                      '- 299ʀs - 2 ᴍᴏɴᴛʜs\n- 430ʀs - 3 ᴍᴏɴᴛʜs\n\n'
                                       '🎁 ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs 🎁\n\n'
                                       '○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴠᴇʀɪғʏ\n○ ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴏᴘᴇɴ ʟɪɴᴋ\n'
                                       '○ ᴅɪʀᴇᴄᴛ ғɪʟᴇs\n○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ\n'
-                                      '○ ᴡᴀᴛᴄʜ ᴜɴʟɪᴍɪᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ\n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n'
-                                      '✨ ᴜᴘɪ ɪᴅ - <code>dm : @XSUPPRT3BOT for upi</code>\n\n'
+                                      '○ Get ᴜɴʟɪᴍɪᴛᴇᴅ Channels \n○ ꜰᴜʟʟ ᴀᴅᴍɪɴ sᴜᴘᴘᴏʀᴛ\n'
+                                      '✨ ᴜᴘɪ ɪᴅ - <code>dm : @XSUPPRT4BOT for upi</code>\n\n'
                                       'ᴄʟɪᴄᴋ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ /myplan\n\n'
                                       '💢 ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ\n\n'
                                       '‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ.\n𝕐𝕠𝕦 𝕔𝕒𝕟 𝕒𝕝𝕤𝕠 𝕓𝕦𝕪 𝕔𝕦𝕤𝕥𝕠𝕞 𝕕𝕒𝕪𝕤 𝕡𝕝𝕒𝕟</b>')
